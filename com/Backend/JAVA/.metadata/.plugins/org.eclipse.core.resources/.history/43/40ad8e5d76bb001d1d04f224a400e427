@@ -1,0 +1,31 @@
+package com.Human;
+
+public class Human {
+	//variables :- variables are container to storing the data values
+	public String Gender = "Boy"; //String represent string || in double quotations
+	public String Color ="White";
+	public String Name = "Human";
+	public int Height = 170;   //  represents integer(numbers)
+	public int Weight = 90;
+	public float Grade = 6.8f;  //float represents Fractions
+	public char Letter = 'A';    // char represents character of the letter
+	public boolean Telling = true;  //boolean represents the true or false
+	
+	
+	
+
+	public static void main(String[] args) {
+		// main() :- main is nothing but a method or function name
+		Human human = new Human();
+		System.out.println("King is a "+human.Gender);
+		System.out.println("King Color is "+human.Color);
+		System.out.println("King is a "+human.Name);
+		System.out.println("King Height "+human.Height);
+		System.out.println("King Weight "+human.Weight);
+		System.out.println("King achieved grade "+human.Weight);
+		System.out.println("King likes Letter "+human.Weight);
+		System.out.println("King says always "+human.Weight);
+
+	}
+
+}

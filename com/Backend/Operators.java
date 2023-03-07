@@ -5,15 +5,14 @@ public class Operators {
 		
 		int i = 20;
 		int j = 10;
-		int k = 5;
 		
 //		Arthmatic Operators
-		//System.out.println(a+b);
-		//System.out.println(a-b);
-		//System.out.println(a*b);
-		//System.out.println(a/b);
-		//System.out.println(a%b);
-		int a=i+k + j+j  - i-i -j-j * i*i * j*j / i/i / j/j % i%i % j%j;
+		System.out.println(i+j);
+		System.out.println(i-j);
+		System.out.println(i*j);
+		System.out.println(i/j);
+		System.out.println(i%j);
+		//int k=i+j + j+j  - i-i -j-j * i*i * j*j / i/i / j/j % i%i % j%j;
 		
 //		unary Operators
 		//Increment

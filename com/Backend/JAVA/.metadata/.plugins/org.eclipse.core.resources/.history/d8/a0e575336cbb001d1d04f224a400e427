@@ -1,0 +1,19 @@
+package com.Human;
+
+public class Human {
+	public String Type = "Boy";
+	public String Color ="White";
+	public String Name = "Human";
+	public int Height = 170;
+	public int Weight = 90;
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Human human = new Human();
+		System.out.println(human.Color);
+
+	}
+
+}
