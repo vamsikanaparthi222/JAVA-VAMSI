@@ -11,8 +11,7 @@ public class Human {
 	public char Letter = 'A';    // char represents character of the letter
 	public boolean Telling = true;  //boolean represents the true or false
 	
-	
-	static int id= 101;  //static fields
+	static int id= 111;  //static fields
 	String name = "King";  //without static is called non-static fields
 	
 	
